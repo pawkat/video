@@ -1,0 +1,262 @@
+body
+  font-family: 'Playfair Display', serif
+  line-height: 1
+.header
+  padding-top: 38px
+  margin-bottom: 45px
+  .wrapper
+	  display: flex
+.wrapper
+  max-width: 1222px
+  margin: 0 auto
+.link
+  color: #333333
+  font-family: "League Spartan"
+  font-size: 9px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 5.4px
+  margin-bottom: 10px
+  text-decoration: none
+  position: relative
+  display: inline-flex
+  &:after
+	  position: absolute
+	  content: ''
+	  display: block
+	  bottom: -10px
+	  left: 0
+	  width: calc(100% - 5px)
+	  height: 2px
+	  background-color: #5da8ef
+	  opacity: 0.7
+.h2
+  color: #333333
+  font-size: 42px
+  font-weight: 700
+  line-height: 1
+  letter-spacing: 0.42px
+  padding-bottom: 10px
+  position: relative
+  &:after
+	  position: absolute
+	  content: ''
+	  display: block
+	  bottom: 0
+	  left: 0
+	  width: 23px
+	  height: 2px
+	  background-color: #5da8ef
+.logo
+  width: 16px
+  height: auto
+  margin-right: 190px
+  display: block
+.nav
+  display: flex
+  padding: 22px 0 14px 0
+  &__item
+	  opacity: 0.9
+	  color: #0b0c11
+	  font-family: "League Spartan"
+	  font-size: 9px
+	  font-weight: 700
+	  text-transform: uppercase
+	  letter-spacing: 5.58px
+	  text-decoration: none
+	  margin-right: 45px
+	  &:last-child
+		  margin-right: 0
+.hero
+  margin-bottom: 240px
+  .wrapper
+	  position: relative
+.slider
+  width: 100%
+  position: relative
+
+.slide
+  display: flex
+  position: relative
+  width: 100%
+  padding: 195px 0
+  &__content
+	  display: flex
+	  flex-direction: column
+	  align-items: flex-start
+  &__name
+	  opacity: 0.9
+	  color: #5da8ef
+	  font-family: "League Spartan"
+	  font-size: 9px
+	  font-weight: 700
+	  text-transform: uppercase
+	  letter-spacing: 5.4px
+	  margin-bottom: 25px
+  &__title
+	  color: #0b0c11
+	  font-size: 62px
+	  font-weight: 700
+	  margin-bottom: 18px
+  &__description
+	  color: #8f8f8f
+	  font-family: 'Poppins', sans-serif
+	  font-size: 14px
+	  font-weight: 300
+	  line-height: 1.7
+	  letter-spacing: 0.35px
+	  max-width: 380px
+  &__img
+	  max-width: 1016px
+	  position: absolute
+	  top: 0
+	  right: 0
+	  z-index: -1
+
+.slider-nav
+  font-family: "League Spartan"
+  font-size: 10px
+  font-weight: 700
+  letter-spacing: 4px
+  color: #ebebeb
+  display: flex
+  justify-content: center
+  align-items: center
+  position: absolute
+  bottom: 3px
+  left: 0
+  &__counter
+	  margin: 0 18px
+	  display: flex
+  &__all
+	  color: #262626
+  &__current
+	  color: #5da8ef
+	  &:after
+		  content: '/'
+  &__arrow
+	  width: 11px
+	  height: 18px
+	  background-image: url('../img/arrow.png')
+	  &_right
+		  transform: rotate(180deg)
+.market
+  text-align: center
+  margin-bottom: 173px
+  &__sub-title
+	  color: #5da8ef
+	  font-family: "League Spartan"
+	  font-size: 9px
+	  font-weight: 700
+	  text-transform: uppercase
+	  letter-spacing: 5.4px
+	  margin-bottom: 9px
+	  text-align: center
+  &__title
+	  color: #333333
+	  font-size: 42px
+	  font-weight: 700
+	  letter-spacing: 0.42px
+	  margin-bottom: 50px
+	  text-align: center
+  &__content
+	  display: flex
+.market-item
+  display: flex
+  margin-top: -72px
+  margin-right: 38px
+  align-items: center
+  &:nth-child(3n)
+	  margin-right: -35px
+  &__img
+	  max-width: 250px
+	  padding: 0 21px
+	  position: relative
+	  &:after
+		  position: absolute
+		  content: ''
+		  display: block
+		  bottom: 0
+		  left: 0
+		  width: 100%
+		  height: 320px
+		  background-color: #ececec
+		  z-index: -1
+  &__content
+	  display: flex
+	  flex-direction: column
+	  align-items: flex-start
+	  margin-top: 40px
+	  margin-left: -35px
+  &__category
+	  color: #7a7a7a
+	  font-family: 'Poppins', serif
+	  font-size: 12px
+	  font-weight: 300
+	  text-transform: uppercase
+	  letter-spacing: 2.4px
+	  margin-bottom: 10px
+  &__title
+	  color: #333333
+	  font-size: 26px
+	  font-weight: 400
+	  line-height: 28px
+	  letter-spacing: 0.26px
+	  margin-bottom: 38px
+  &__price
+	  color: #ce60a8
+	  font-family: 'Poppins', serif
+	  font-size: 20px
+	  font-weight: 300
+	  letter-spacing: -0.1px
+	  margin-bottom: 8px
+	  align-self: center
+  &__link
+	  color: #333333
+	  font-family: "League Spartan"
+	  font-size: 9px
+	  font-weight: 700
+	  text-transform: uppercase
+	  letter-spacing: 5.4px
+	  align-self: center
+	  text-decoration: none
+.sections
+  display: flex
+  justify-content: space-between
+  .wrapper
+	  display: flex
+	  flex-direction: column
+	  justify-content: center
+	  width: 100%
+.section
+  display: flex
+  justify-content: space-between
+  margin-bottom: 120px
+  &:last-child
+	  margin-bottom: 0
+  &__content
+	  padding-top: 88px
+  &__title
+	  margin-bottom: 34px
+  &__description
+	  opacity: 0.65
+	  color: #616161
+	  font-family: 'Poppins', serif
+	  font-size: 14px
+	  font-weight: 300
+	  line-height: 24px
+	  letter-spacing: 0.35px
+	  margin-bottom: 65px
+	  max-width: 341px
+  &__img
+	  max-width: 862px
+	  img
+		  max-width: 100%
+  &_center
+	  flex-direction: row-reverse
+	  justify-content: center
+	  .section__img
+		  max-width: 489px
+	  .section__content
+		  margin: 0 0 0 75px
+
